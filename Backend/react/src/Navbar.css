@@ -1,0 +1,35 @@
+.Sidebar {
+  width: 250px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  background: rgb(34,195,161);
+  background: linear-gradient(190deg, rgba(34,195,161,1) 0%, rgba(93,45,253,1) 100%);
+}
+
+.Sidebar .Sidebar-tab {
+  height: 3.5rem;
+  line-height: 3.5rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  opacity: 0.8;
+  margin: 0.75rem 1rem;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease-out;
+}
+
+.Sidebar .Sidebar-tab:hover {
+  opacity: 1;
+  transition: none;
+}
+
+.material-icons-outlined {
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  width: 24px;
+  height: 24px;
+}

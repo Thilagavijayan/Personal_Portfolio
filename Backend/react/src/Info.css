@@ -1,0 +1,60 @@
+.Info {
+  display: inline-block;
+  position: absolute;
+  width: -webkit-fill-available;
+}
+
+.Info-framework {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+.Spring-logo {
+  height: 4vh;
+  pointer-events: none;
+  margin: 0 10px;
+}
+
+.React-logo {
+  height: 5vh;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .React-logo {
+    animation: Info-logo-spin infinite 20s linear;
+  }
+}
+
+.Info-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Info-header h1 {
+  margin: 0 0 1vh 0;
+}
+
+.Info-authors {
+  font-size: calc(2vmin);
+  margin-bottom: 1vh;
+}
+
+.Info-link {
+  color: #61dafb;
+}
+
+@keyframes Info-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
